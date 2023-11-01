@@ -16,7 +16,7 @@ public class first
         WebElement search = driver.findElement(By.id("small-searchterms"));
         search.sendKeys("Lenovo");
         search.submit();
-//        driver.quit();
+        driver.quit();
 
     }
 }
