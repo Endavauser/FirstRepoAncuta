@@ -1,8 +1,10 @@
 package org.example;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 
 public class first
 
@@ -16,7 +18,7 @@ public class first
         WebElement search = driver.findElement(By.id("small-searchterms"));
         search.sendKeys("Lenovo");
         search.submit();
-        driver.quit();
+//      driver.quit();
 
     }
 }
